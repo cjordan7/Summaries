@@ -1,7 +1,52 @@
 
 # Useful Commands from different modes of Emacs
 
+## Elisp
+* Comment
+  ```
+  ;; This is an elisp comment
+  ```
+  
+* Set value
+  
+  ```
+  (setq value "test")
+  
+  ;; Multiple assignment
+  (setq v "a" v2 2 v3 42)
+  ```
+  
+* Insert where the cursor is
+
+  ```
+  (insert "Hi" "Hi2" value)
+  ```
+  
+  would give "Hi Hi2 test"
+* Function definition
+
+  ```
+  (defun name (arg1 arg2 arg3 arg4 ...)
+      "Optional documentation"
+      (interactive argument-passing-info)     ;; optional
+      body
+  )
+  ```
+  
+  * call the function with arguments
+  
+  ```
+  (name arg1 arg2 arg3 ...)
+  ```
+
 ## General
+* Evaluate *Elisp* code
+  
+  ```
+  C-x C-e: eval-last-sexp
+  ```
+  
+  
 * Find and replace query
     
     ```
