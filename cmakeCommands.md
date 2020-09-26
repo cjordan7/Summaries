@@ -26,9 +26,11 @@
 
 * Simple hello world cmake
 
-    `cmake_minimum_required(VERSION 3.18.2)
+    ```
+    cmake_minimum_required(VERSION 3.18.2)
    project (hello)
-   add_executable(app HelloWorld.cpp)`
+   add_executable(app HelloWorld.cpp)
+   ```
 
 * We require C++ 17
 
@@ -40,49 +42,73 @@
     
 * We set the minimum version required for *cmake* by typing:
 
-    `cmake_minimum_required(VERSION 3.18.2)`
+    ```
+    cmake_minimum_required(VERSION 3.18.2)
+    ```
 
     * we can throw an error if the version is below
     
-        `cmake_minimum_required(VERSION 3.18.2 FATAL_ERROR)`
+        ```
+        cmake_minimum_required(VERSION 3.18.2 FATAL_ERROR)
+        ```
 
 * We define the name of the project with:
 
-    `project (cmake project)`
+    ```
+    project (cmake project)
+    ```
 
   * Enable C++
   
-      `project(name CXX)`
+      ```
+      project(name CXX)
+      ```
     
 * To add a directory, we write:
 
-  `add_directory(src)`
+  ```
+  add_directory(src)
+  ```
   
 * We can specify the include directory, in clang it is the famous *-I* command
 
-  `include_directory(include)`
+  ```
+  include_directory(include)
+  ```
   
 * We can manually add the sources of the files
 
-  `set(SRC src/one.cpp src/two.cpp)`
+  ```
+  set(SRC src/one.cpp src/two.cpp)
+  ```
   
   * from the documentation
   
-      `set(<variable> <value>... [PARENT_SCOPE])`
+      ```
+      set(<variable> <value>... [PARENT_SCOPE])
+      ```
   
   * Other examples:
   
-      `set(Test "Some Text")`
+      ```
+      set(Test "Some Text")
+      ```
   
-      `set(TestWithVariable "A variable coming from test: ${Test}")`
+      ```
+      set(TestWithVariable "A variable coming from test: ${Test}")
+      ```
   
 * Use `string` to create string
 
-  `string(APPEND Test "")`
+  ```
+  string(APPEND Test "")
+  ```
   
 * The file allows for wildcard additions:
 
-  `file(GLOB SRC "src/*.cpp")`
+  ```
+  file(GLOB SRC "src/*.cpp")
+  ```
   
 * Like any programming language, if, else are defined:
 
@@ -121,7 +147,9 @@
    
 * To link libraries
 
-  `target_link_libraries(${projectName} ${libraries} m)`
+  ```
+  target_link_libraries(${projectName} ${libraries} m)
+  ```
   
 * To recognize `UNIX` or `UNIX`-Like systems, we use
 
