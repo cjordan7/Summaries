@@ -10,7 +10,7 @@
 * The following commands are used to build a project using cmake:
 
   ```
-  cd path/to/projectDirectory/
+  cd path/to/project/directory/
   mkdir build
   cd build/
   cmake ..
@@ -42,7 +42,7 @@
 
     * we can throw an error if the version is below
     
-    `cmake_minimum_required(VERSION 3.18.2 FATAL_ERROR)`
+        `cmake_minimum_required(VERSION 3.18.2 FATAL_ERROR)`
 
 * We define the name of the project with:
 
@@ -50,7 +50,7 @@
 
   * Enable C++
   
-    `project(name CXX)`
+      `project(name CXX)`
     
 * To add a directory, we write:
 
@@ -66,13 +66,13 @@
   
   * from the documentation
   
-  `set(<variable> <value>... [PARENT_SCOPE])`
+      `set(<variable> <value>... [PARENT_SCOPE])`
   
   * Other examples:
   
-  `set(Test "Some Text")`
+      `set(Test "Some Text")`
   
-  `set(TestWithVariable "A variable coming from test: ${Test}")`
+      `set(TestWithVariable "A variable coming from test: ${Test}")`
   
 * Use `string` to create string
 
@@ -130,16 +130,16 @@
   
   * To recognize, *Darwin*/*Apple*, we use
   
-  ```
-   if(APPLE)
-   endif(APPLE)
-   ```
+      ```
+      if(APPLE)
+      endif(APPLE)
+      ```
    
    * or we could use:
-   
-   ```
-   if(${CMAKE_SYSTEM_NAME} MATCHES Darwin)
-       # ...
-   endif()
-    ```
+     
+     ```
+     if(${CMAKE_SYSTEM_NAME} MATCHES Darwin)
+        # ...
+     endif()
+     ```
 
