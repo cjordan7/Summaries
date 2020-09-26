@@ -3,4 +3,6 @@
 
 * Undo `git add`
 
-  `git reset <file>`
+  ```
+  git reset <file>
+  ```
