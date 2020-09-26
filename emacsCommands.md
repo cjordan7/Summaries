@@ -3,7 +3,9 @@
 
 ## General
 * Find and replace query
+    
     `M-%`
+    
     then click `y` for replace, or `n` don't replace
 * Describe the different modes of the current buffer
 
