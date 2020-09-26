@@ -6,20 +6,29 @@
     `M-%`
     then click `y` for replace, or `n` don't replace
 * Describe the different modes of the current buffer
+
     `describe-mode`
+
 * Describe the corresponding shortcut (keys)
+
     `describe-key` 
 
 * Delete trailing whitespaces in current selected region
+
     `delete-trailing-whitespaces`
 
 ## Yas
 * Create a new snippet
+
     `C-c & C-n : yas-new-snippet`
+
 * Insert a snippet at point
-    `C-c & C-s : yas-insert-snippet`
+
+`C-c & C-s : yas-insert-snippet`
+
 * Insert file
-    `C-c & C-v : yas-visit-snippet-file`
+
+`C-c & C-v : yas-visit-snippet-file`
 
 
 ## Dumb-jump
@@ -27,19 +36,24 @@
 
 ## Helm
 * Choose file
-    `C-x C-f : helm-find-files`
+
+`C-x C-f : helm-find-files`
 
 ## Projectile
 * Find a directory in the project
-    `C-p d : projectile-find-dir`
+
+`C-p d : projectile-find-dir`
     
 * Find a file in the project
-    `C-p f : projectile-find-file`
+
+`C-p f : projectile-find-file`
+
 * Crazy shells...
-    `C-p x e : projectile-run-eshell`
-    `C-p x i : projectile-run-ielm`
-    `C-p x s : projectile-run-shell`
-    `C-p x t : projectile-run-term`
+
+`C-p x e : projectile-run-eshell`
+`C-p x i : projectile-run-ielm`
+`C-p x s : projectile-run-shell`
+`C-p x t : projectile-run-term`
 
 ## Company-irony
 Command to install a server on macOS
