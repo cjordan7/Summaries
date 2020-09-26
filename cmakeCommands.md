@@ -9,11 +9,13 @@
 * Usually build file are put in a directory called `build`, but it could be anything
 * The following commands are used to build a project using cmake:
 
-  `cd path/to/projectDirectory/
-   mkdir build
-   cd build/
-   cmake ..
-   make`
+  ```
+  cd path/to/projectDirectory/
+  mkdir build
+  cd build/
+  cmake ..
+  make
+  ```
 # 
 ## Commands
 * This is a comment
