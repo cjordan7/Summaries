@@ -28,9 +28,9 @@
 
 * We require C++ 17
 
-    `set(CMAKE_CXX_STANDARD 17)
+    ```set(CMAKE_CXX_STANDARD 17)
      set(CMAKE_CXX_STANDARD_REQUIRED ON)
-    set(CMAKE_CXX_EXTENSIONS OFF)`
+    set(CMAKE_CXX_EXTENSIONS OFF)```
     
 * We set the minimum version required for *cmake* by typing:
 
@@ -42,7 +42,7 @@
 
 * We define the name of the project with:
 
-`project (cmake project)`
+    `project (cmake project)`
 
   * Enable C++
   
@@ -80,22 +80,19 @@
   
 * Like any programming language, if, else are defined:
 
-  `
-  if(condition)
+  ```if(condition)
       # ...
   elseif(conditionTwo)
       # ...
   else
       # ...
-   `
-   
+  ```
+
 * Logic operations:
 
-  `
-  if((TRUE OR FALSE) AND (TRUE OR TRUE))
+  ```if((TRUE OR FALSE) AND (TRUE OR TRUE))
       message("Don't display!")
-  endif()
-  `
+  endif()```
   
 * Defining loops:
 
