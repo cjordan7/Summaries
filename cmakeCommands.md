@@ -20,7 +20,9 @@
 ## Commands
 * This is a comment
 
-    `# cmake see this as a comment`
+    ```
+    # cmake see this as a comment
+    ```
 
 * Simple hello world cmake
 
