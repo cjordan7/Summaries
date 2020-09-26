@@ -91,7 +91,7 @@
 ## Company-irony
 Command to install a server on macOS
 
-    `cmake -DCMAKE_INSTALL_PREFIX\=/Users/$USER/.emacs.d/irony/ -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON -DCMAKE_PREFIX_PATH=/usr/local/opt/llvm -DCMAKE_CXX_COMPILER=/usr/local/opt/llvm/bin/clang++ -DCMAKE_C_COMPILER=/usr/local/opt/llvm/bin/clang -DLIBCLANG_INCLUDE_DIR=/usr/local/opt/llvm/include -DLIBCLANG_LIBRARY=/usr/local/opt/llvm/lib/libclang.dylib  /Users/$USER/.emacs.d/elpa/irony-20200130.849/server && cmake --build . --use-stderr --config Release --target install`
+    cmake -DCMAKE_INSTALL_PREFIX\=/Users/$USER/.emacs.d/irony/ -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON -DCMAKE_PREFIX_PATH=/usr/local/opt/llvm -DCMAKE_CXX_COMPILER=/usr/local/opt/llvm/bin/clang++ -DCMAKE_C_COMPILER=/usr/local/opt/llvm/bin/clang -DLIBCLANG_INCLUDE_DIR=/usr/local/opt/llvm/include -DLIBCLANG_LIBRARY=/usr/local/opt/llvm/lib/libclang.dylib  /Users/$USER/.emacs.d/elpa/irony-20200130.849/server && cmake --build . --use-stderr --config Release --target install
 
 ## Markdown
 * Personalized command, defined by snippet
