@@ -28,9 +28,11 @@
 
 * We require C++ 17
 
-    ```set(CMAKE_CXX_STANDARD 17)
-     set(CMAKE_CXX_STANDARD_REQUIRED ON)
-    set(CMAKE_CXX_EXTENSIONS OFF)```
+    ```
+    set(CMAKE_CXX_STANDARD 17)
+    set(CMAKE_CXX_STANDARD_REQUIRED ON)
+    set(CMAKE_CXX_EXTENSIONS OFF)
+    ```
     
 * We set the minimum version required for *cmake* by typing:
 
@@ -80,7 +82,8 @@
   
 * Like any programming language, if, else are defined:
 
-  ```if(condition)
+  ```
+  if(condition)
       # ...
   elseif(conditionTwo)
       # ...
@@ -90,23 +93,27 @@
 
 * Logic operations:
 
-  ```if((TRUE OR FALSE) AND (TRUE OR TRUE))
+  ```
+  if((TRUE OR FALSE) AND (TRUE OR TRUE))
       message("Don't display!")
-  endif()```
+  endif()
+  ```
   
 * Defining loops:
 
-  `
+  ```
   foreach(loopVar arg1 arg2 ...)
       COMMAND1(ARGS ...)
       COMMAND2(ARGS ...)
   endforeach(loopVar)
-  `
+  ```
   
 * Adding the executable
 
-  `${projectName} refers to Learn_CMake 
-   add_executable(${projectName} ${src})`
+  ```
+  ${projectName} refers to Learn_CMake 
+   add_executable(${projectName} ${src})
+   ```
    
 * To link libraries
 
@@ -114,17 +121,23 @@
   
 * To recognize `UNIX` or `UNIX`-Like systems, we use
 
-  `if(UNIX)
+  ```
+  if(UNIX)
    endif(UNIX)
-  `
+  ```
   
   * To recognize, *Darwin*/*Apple*, we use
   
-  `if(APPLE)
-   endif(APPLE)`
+  ```
+   if(APPLE)
+   endif(APPLE)
+   ```
    
    * or we could use:
    
-   `if(${CMAKE_SYSTEM_NAME} MATCHES Darwin)
-    endif()`
+   ```
+   if(${CMAKE_SYSTEM_NAME} MATCHES Darwin)
+       # ...
+   endif()
+    ```
 
