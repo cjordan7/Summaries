@@ -2,6 +2,9 @@
 
 # Summary of SwiftUI
 
+*** 
+## UI Elements
+
 # 
 ### Form
 * Use `Form {}`
@@ -45,3 +48,17 @@
         }.navigationBarTitle("Navigation Link")
       }
     ```
+
+# 
+### Button
+* Use `Button("Title") {actionOfButton()}`
+
+*** 
+## Logic
+
+# 
+### property wrapper
+* In *Swift*, if we want to change properties of a *struct* in a function, we have to
+  add *mutating* in front of the function. Though, *SwiftUI* doesn't let us use it
+  for *some View*
+  * To be able to do it, we have to use a **property wrapper** called **@State**
