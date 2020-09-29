@@ -14,7 +14,7 @@
 
 # 
 ### NavigationView
-* NavigationView
+* Use `NavigationView {}`
   * Use to add a navigation bar title
 
     `.navigationBarTitle(Text("Title"))`
