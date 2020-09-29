@@ -106,5 +106,5 @@
   for *some View*
   * To be able to do it, we have to use a **property wrapper** called **@State**
   * It allows *SwiftUI* to store the propriety and change it.
-  * *Apple* recommends to add *private* for each of those property
+  * *Apple* recommends to add *private* for each of those properties
     * Example `@State private var test = 0`
