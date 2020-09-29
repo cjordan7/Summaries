@@ -3,7 +3,7 @@
 # Summary of SwiftUI
 
 *** 
-## UI Elements
+## Views
 
 # 
 ### Form
@@ -19,6 +19,10 @@
 ### Group
 * SwiftUI doesn't allow more than 10 elements for each *closure*
   * To avoid this problem, we use `Group {}`
+
+# 
+### Section
+* To create section in tables: `Section {}`
 
 # 
 ### NavigationView
@@ -59,6 +63,8 @@
   * The `$` is used as a two way binding with the variable `variable`.Each time someone
     taps something in the text field, it will update the variable.
   * Notice that `variable` must be a `@State`
+  * Use `.keyboardType(.numberPad)` for type of keyboard. Use either `.numberPad`,
+    `.decimalPad`, ...
   * Example:
   ```
   struct ContentView: View {
@@ -72,6 +78,22 @@
     }
   }
   ```
+
+# 
+### ForEach
+* Construct is `ForEach(0..<10) {n in Text("ForEach \(n)")}` or is simply * Construct
+  is `ForEach(0..<10) {Text("ForEach \($0)")}` because `ForEach` is a closure.
+
+# 
+### Picker
+* Use `Picker("Title", selection: $binding) {}`
+  * where `@State private var binding = 0`
+# 
+### Stack
+* Use `VStack {}` to stack horizontal elements
+* Use `HStack {}` to stack vertical elements
+* Use `ZStack {}` to stack elements on top of each other
+  * 
 
 *** 
 ## Logic
