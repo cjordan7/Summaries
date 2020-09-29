@@ -81,8 +81,8 @@
 
 # 
 ### ForEach
-* Construct is `ForEach(0..<10) {n in Text("ForEach \(n)")}` or is simply * Construct
-  is `ForEach(0..<10) {Text("ForEach \($0)")}` because `ForEach` is a closure.
+* Construct is `ForEach(0..<10) {n in Text("ForEach \(n)")}` or is simply 
+* Construct is `ForEach(0..<10) {Text("ForEach \($0)")}` because `ForEach` is a closure.
 
 # 
 ### Picker
