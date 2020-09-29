@@ -53,6 +53,26 @@
 ### Button
 * Use `Button("Title") {actionOfButton()}`
 
+# 
+### TextField
+* Use `TextField("Text", text: $variable)`
+  * The `$` is used as a two way binding with the variable `variable` each time someone
+    taps something in the text field it will update the variable
+  * Notice that `variable` must be a `@State`
+  * Example:
+  ```
+  struct ContentView: View {
+    @State private var testVar = ""
+
+    var body: some View {
+        Form {
+            TextField("EnterSomething", text: $testVar)
+            Text("Hello World")
+        }
+    }
+  }
+  ```
+
 *** 
 ## Logic
 
