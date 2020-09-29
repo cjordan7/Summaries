@@ -2,8 +2,15 @@
 
 # Summary of SwiftUI
 
-* Group {}
-* Form {}
+# 
+### Form
+* Use `Form {}`
+  * Example
+  ```
+  Form {
+      Text("Hi, people")
+  }
+  ```
 
 # 
 ### NavigationView
