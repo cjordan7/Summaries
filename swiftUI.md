@@ -23,7 +23,7 @@
 # 
 ### Section
 * To create section in tables: `Section {}`
-
+* Use `Section(header: Text("Set header")) {}` to set the header
 # 
 ### NavigationView
 * Use `NavigationView {}`
@@ -88,6 +88,7 @@
 ### Picker
 * Use `Picker("Title", selection: $binding) {}`
   * where `@State private var binding = 0`
+  * Use `.pickerStyle(SegmentedPickerStyle())` for segmented style
 # 
 ### Stack
 * Use `VStack {}` to stack horizontal elements
