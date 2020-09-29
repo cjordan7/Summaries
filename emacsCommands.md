@@ -45,7 +45,12 @@
   ```
   C-x C-e: eval-last-sexp
   ```
-  
+
+* Describe all colors from current buffer
+
+    ```
+    M-x list-faces-display
+    ```
   
 * Find and replace query
     
