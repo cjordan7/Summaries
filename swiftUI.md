@@ -56,8 +56,8 @@
 # 
 ### TextField
 * Use `TextField("Text", text: $variable)`
-  * The `$` is used as a two way binding with the variable `variable` each time someone
-    taps something in the text field it will update the variable
+  * The `$` is used as a two way binding with the variable `variable`.Each time someone
+    taps something in the text field, it will update the variable.
   * Notice that `variable` must be a `@State`
   * Example:
   ```
