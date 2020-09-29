@@ -22,3 +22,14 @@
             .navigationBarTitle("Navigation")
       }
       ```
+
+* We present new views using `NavigationLink`
+  * Example
+
+      ```
+      NavigationView {
+        NavigationLink(destination: Text("Another View")) {
+            Text("Hi from another view!")
+        }.navigationBarTitle("Navigation Link")
+      }
+    ```
