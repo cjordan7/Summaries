@@ -49,13 +49,13 @@
   * Or use `C-x 8 RET`
     * You can enter unicode hex
   * Common commands
-    * ```
+      ```
       \notin : ∉
       \in    : ∈
       \ne    : ≠
       ^      : power, example: a^i == aⁱ
       _      : subscript, example: a_i == aᵢ
-    ```
+      ```
     * Useful websites
       * https://en.wikipedia.org/wiki/Blackboard_bold
       * https://en.wikipedia.org/wiki/List_of_logic_symbols
