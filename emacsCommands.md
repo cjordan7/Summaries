@@ -40,6 +40,22 @@
   ```
 
 ## General
+* Insert special characters
+  ```
+  M-x set-input-method RET TeX
+  ```
+  
+  then choose `TeX` and insert them using `\characters`, example: `\alpha` for alpha
+  * Or use `C-x 8 RET`
+    * You can enter unicode hex
+  * Common commands
+    * ```
+      \notin : ∉
+      \in    : ∈
+      \ne    : ≠
+      ^      : power, example: a^i == aⁱ
+      _      : subscript, example: a_i == aᵢ
+      ```
 * Evaluate *Elisp* code
   
   ```
