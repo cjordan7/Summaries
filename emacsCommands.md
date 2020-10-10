@@ -49,7 +49,7 @@
   * unstage every file: `U` (capital u)
 * commit: `c` (this get a commit menu) and `c` one more time
   * then enter commit message and save it by `C-c C-c`
-* push: `P` (this gets a push menu)
+* push: `P` (this gets a push menu), then `p` for push to `main` and `p` again to push
 
 ## General
 * Insert special characters
