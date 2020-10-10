@@ -39,6 +39,18 @@
   (name arg1 arg2 arg3 ...)
   ```
 
+## Magit
+* Git status command `M-x magit-status`
+  * can show changes and recent commits, `tab` and `q` to leave
+* `l` log-popup or `Mx magit-log-popup`
+* stage, only one file : `s` (be on same line)
+  * unstage: `u`
+* stage, every file: `S` (capital s)
+  * unstage every file: `U` (capital u)
+* commit: `c` (this get a commit menu) and `c` one more time
+  * then enter commit message and save it by `C-c C-c`
+* push: `P` (this gets a push menu)
+
 ## General
 * Insert special characters
   ```
@@ -59,6 +71,9 @@
     * Useful websites
       * https://en.wikipedia.org/wiki/Blackboard_bold
       * https://en.wikipedia.org/wiki/List_of_logic_symbols
+      * https://www.doc.ic.ac.uk/~svb/chars.html
+      * https://unicode-search.net/unicode-namesearch.pl?term=SCRIPT
+      * https://www.emacswiki.org/emacs/TeXInputMethod
       * 
 * Evaluate *Elisp* code
   
